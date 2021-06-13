@@ -30,7 +30,7 @@ nav {
 }
 
 #nav-apps:hover {
-    background-color: gray;
+    background-color: rgb(100, 100, 100, 0.1);
     border-radius: 50%    
 }
 
@@ -154,10 +154,20 @@ footer {
 
 }
 
+.links-left:hover {
+    text-decoration: underline;
+}
+
+
+
 .links-right {
     float: right;
     padding: 15px;
     text-decoration: none;
     color:#70757a;
 
+}
+
+.links-right:hover {
+    text-decoration: underline;
 }
